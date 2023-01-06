@@ -1,0 +1,37 @@
+apiVersion: v1
+entries:
+  delta-stack:
+  - apiVersion: v2
+    appVersion: "2.9"
+    created: "2023-01-06T16:11:00.409679937+09:00"
+    dependencies:
+    - condition: voltha.enabled
+      name: voltha
+      repository: file://../voltha
+      version: 2.10.9
+    - condition: voltha-adapter-openonu.enabled
+      name: voltha-adapter-openonu
+      repository: file://../voltha-adapter-openonu
+      version: 2.9.13
+    - condition: voltha-adapter-openolt.enabled
+      name: voltha-adapter-openolt
+      repository: file://../voltha-adapter-openolt
+      version: 2.10.8
+    description: A Helm chart to install a VOLTHA stack on existing infrastructure
+    digest: f0bcc998c9d3326b2db60c56b2fa304a66009437794de01bf804ad645f1ec187
+    home: https://www.opennetworking.org/voltha
+    icon: https://guide.opencord.org/logos/voltha.svg
+    keywords:
+    - onf
+    - voltha
+    - openolt-adapters
+    - openonu-adapters
+    maintainers:
+    - email: info@opennetworking.org
+      name: Open Networking Foundation
+      url: https://www.opennetworking.org
+    name: delta-stack
+    urls:
+    - delta-stack-2.9.18.tgz
+    version: 2.9.18
+generated: "2023-01-06T16:11:00.407006384+09:00"
