@@ -3,7 +3,7 @@ entries:
   delta-stack:
   - apiVersion: v2
     appVersion: "2.9"
-    created: "2023-01-09T10:14:57.451040095+09:00"
+    created: "2023-01-09T10:57:15.818055779+09:00"
     dependencies:
     - condition: voltha.enabled
       name: voltha
@@ -18,7 +18,7 @@ entries:
       repository: file://../voltha-adapter-openolt
       version: 2.10.8
     description: A Helm chart to install a VOLTHA stack on existing infrastructure
-    digest: 40bdc0b6a9404de033b2861396a07f765bc71546324293fb9be506589ded37eb
+    digest: 4599836e01d1d7b3d083f699e2ee35604314cc0383c66d273e56e3104507da5f
     home: https://www.opennetworking.org/voltha
     icon: https://guide.opencord.org/logos/voltha.svg
     keywords:
@@ -34,76 +34,4 @@ entries:
     urls:
     - delta-stack-2.9.18.tgz
     version: 2.9.18
-  voltha:
-  - apiVersion: v1
-    appVersion: "2.9"
-    created: "2023-01-09T10:14:57.451678489+09:00"
-    description: A Helm chart for Voltha based on K8S resources in Voltha project
-    digest: 24b428ab543396a76e7561ac6322ac4b7784c3669ac546afd4177d60a7c1d8c3
-    home: https://www.opennetworking.org/voltha
-    icon: https://guide.opencord.org/logos/voltha.svg
-    keywords:
-    - onf
-    - voltha
-    - core
-    - ofagent
-    maintainers:
-    - email: info@opennetworking.org
-      name: Open Networking Foundation
-      url: https://www.opennetworking.org
-    name: voltha
-    sources:
-    - https://github.com/opencord/voltha-go
-    - https://github.com/opencord/ofagent-go
-    urls:
-    - voltha-2.10.9.tgz
-    version: 2.10.9
-  voltha-adapter-openolt:
-  - apiVersion: v1
-    appVersion: 4.1.5
-    created: "2023-01-09T10:14:57.452208563+09:00"
-    description: A Helm chart for Voltha OpenOLT Adapter
-    digest: ebcc49544681173fbf42985abf6f4fdd433a827fb327b9b91e5ffed992a074c2
-    home: https://www.opennetworking.org/voltha
-    icon: https://guide.opencord.org/logos/voltha.svg
-    keywords:
-    - onf
-    - voltha
-    - adapter
-    - olt
-    - open
-    maintainers:
-    - email: info@opennetworking.org
-      name: Open Networking Foundation
-      url: https://www.opennetworking.org
-    name: voltha-adapter-openolt
-    sources:
-    - https://github.com/opencord/voltha-openolt-adapter
-    urls:
-    - voltha-adapter-openolt-2.10.8.tgz
-    version: 2.10.8
-  voltha-adapter-openonu:
-  - apiVersion: v1
-    appVersion: 2.1.6
-    created: "2023-01-09T10:14:57.452777222+09:00"
-    description: A Helm chart for Voltha OpenONU Adapter
-    digest: 85764442c0d868ad97913467bd0a0740afa27744649d348d145c73c525c3d8ff
-    home: https://www.opennetworking.org/voltha
-    icon: https://guide.opencord.org/logos/voltha.svg
-    keywords:
-    - onf
-    - voltha
-    - adapter
-    - onu
-    - open
-    maintainers:
-    - email: info@opennetworking.org
-      name: Open Networking Foundation
-      url: https://www.opennetworking.org
-    name: voltha-adapter-openonu
-    sources:
-    - https://github.com/opencord/voltha-openonu-adapter
-    urls:
-    - voltha-adapter-openonu-2.9.13.tgz
-    version: 2.9.13
-generated: "2023-01-09T10:14:57.447738502+09:00"
+generated: "2023-01-09T10:57:15.814600461+09:00"
