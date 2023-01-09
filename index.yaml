@@ -3,7 +3,7 @@ entries:
   delta-stack:
   - apiVersion: v2
     appVersion: "2.9"
-    created: "2023-01-09T09:06:42.090598075+09:00"
+    created: "2023-01-09T09:54:38.258952501+09:00"
     dependencies:
     - condition: voltha.enabled
       name: voltha
@@ -18,7 +18,7 @@ entries:
       repository: file://../voltha-adapter-openolt
       version: 2.10.8
     description: A Helm chart to install a VOLTHA stack on existing infrastructure
-    digest: 6ce0ec6db43f49edee77a561013d3b10ef7aa877fdd3e976cd2aa3acdce12ee5
+    digest: fa2fb55d283def2b9d1d448196eeebcd5cd6a70e66461b947da7a7afc73fb54b
     home: https://www.opennetworking.org/voltha
     icon: https://guide.opencord.org/logos/voltha.svg
     keywords:
@@ -37,7 +37,7 @@ entries:
   voltha:
   - apiVersion: v1
     appVersion: "2.9"
-    created: "2023-01-09T09:06:42.092542634+09:00"
+    created: "2023-01-09T09:54:38.260344701+09:00"
     description: A Helm chart for Voltha based on K8S resources in Voltha project
     digest: 24b428ab543396a76e7561ac6322ac4b7784c3669ac546afd4177d60a7c1d8c3
     home: https://www.opennetworking.org/voltha
@@ -61,7 +61,7 @@ entries:
   voltha-adapter-openolt:
   - apiVersion: v1
     appVersion: 4.1.5
-    created: "2023-01-09T09:06:42.094041602+09:00"
+    created: "2023-01-09T09:54:38.262359378+09:00"
     description: A Helm chart for Voltha OpenOLT Adapter
     digest: ebcc49544681173fbf42985abf6f4fdd433a827fb327b9b91e5ffed992a074c2
     home: https://www.opennetworking.org/voltha
@@ -85,7 +85,7 @@ entries:
   voltha-adapter-openonu:
   - apiVersion: v1
     appVersion: 2.1.6
-    created: "2023-01-09T09:06:42.095056577+09:00"
+    created: "2023-01-09T09:54:38.264148743+09:00"
     description: A Helm chart for Voltha OpenONU Adapter
     digest: 85764442c0d868ad97913467bd0a0740afa27744649d348d145c73c525c3d8ff
     home: https://www.opennetworking.org/voltha
@@ -106,4 +106,4 @@ entries:
     urls:
     - voltha-adapter-openonu-2.9.13.tgz
     version: 2.9.13
-generated: "2023-01-09T09:06:42.088624346+09:00"
+generated: "2023-01-09T09:54:38.254585647+09:00"
