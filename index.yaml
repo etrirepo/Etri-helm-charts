@@ -3,7 +3,7 @@ entries:
   delta-stack:
   - apiVersion: v2
     appVersion: "2.9"
-    created: "2023-01-09T13:22:51.113409234+09:00"
+    created: "2023-01-09T14:16:35.388818708+09:00"
     dependencies:
     - condition: voltha.enabled
       name: voltha
@@ -18,7 +18,7 @@ entries:
       repository: file://../voltha-adapter-openolt
       version: 2.10.8
     description: A Helm chart to install a VOLTHA stack on existing infrastructure
-    digest: bc41f39e1ad1b5a6f652f6910c56b4df60356f7b58a9a3bd5530b50c2a889a59
+    digest: 584942a3bbd7889fe28420698181c4e6484f79402c7cce8d8daaceb520a52231
     home: https://www.opennetworking.org/voltha
     icon: https://guide.opencord.org/logos/voltha.svg
     keywords:
@@ -34,4 +34,4 @@ entries:
     urls:
     - delta-stack-2.9.18.tgz
     version: 2.9.18
-generated: "2023-01-09T13:22:51.110056616+09:00"
+generated: "2023-01-09T14:16:35.386867342+09:00"
